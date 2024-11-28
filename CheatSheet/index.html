@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>CSS | border properties</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h2>CSS Reference Guide</h2>
+    <h1>border-* properties</h1>
+
+    <table>
+      <thead>
+        <tr>
+          <th scope="col"><span id="col1">Property</span></th>
+          <th scope="col"><span id="col2">Description & Syntax & Example</span></th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!--border property-->
+        <tr>
+          <th scope="row" class="row" rowspan="4">border</th>
+          <td>It sets the values of border-width, border-style, and border-color</td>
+        </tr>
+        <tr><td>border: width style color</td></tr>
+        <tr><td><span class='code'>border: 2px double #32a1ce;</span></td></tr>
+        <tr><td>Can use any combination of values described below</td></tr>
+
+        <!--border-width property-->
+        <tr>
+          <th scope="row" class="row" rowspan="4">border-width</th>
+          <td>Sets the width of an element's border</td>
+        </tr>
+        <tr><td>border-width: top right bottom left</td></tr>
+        <tr><td><span class='code'>border-style: dashed groove none dotted;</span></td></tr>
+        <tr><td>Can use any non-negative legth (em or px) or a keyword (thing, medium, thick)</td></tr>
+
+        <!--border-style property-->
+        <tr>
+          <th scope="row" class="row" rowspan="4">border-style</th>
+          <td>Sets the line style for all four sides of an element's border</td>
+        </tr>
+        <tr><td>border-style: top right bottom left</td></tr>
+        <tr><td><span class='code'>border-style: dashed groove none dotted;</span></td></tr>
+        <tr><td>Can use any of predefined keyword values eg. dotted, dashed, solid</td></tr>
+
+        <!--border-color property-->
+        <tr>
+          <th scope="row" class="row" rowspan="4">border-color</th>
+          <td>Sets the color of an element's border</td>
+        </tr>
+        <tr><td>border-color: top right bottom left</td></tr>
+        <tr><td><span class='code'>border-color: red yellow green transparent;</span></td></tr>
+        <tr><td>Can use any combination of named color, hex values, rgba, or hsla</td></tr>
+
+        <!--border-radius property-->
+        <tr>
+          <th scope="row" class="row" rowspan="4">border-radius</th>
+          <td>Rounds the corners of an element's outer border edge</td>
+        </tr>
+        <tr><td>border-radius: top-left top-right bottom-right bottom-left</td></tr>
+        <tr><td><span class='code'>border-radius: 10% 30% 50% 70%;</span></td></tr>
+        <tr><td>Units are length (px or em) or percentage values</td></tr>
+
+      </tbody>
+    </table>
+
+  </body>
+
+</html>
