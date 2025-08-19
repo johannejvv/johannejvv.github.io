@@ -1,0 +1,295 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; /* 1rem = 16px; */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.main-content {
+  position: relative;
+  top: 4.12rem; /* To offset for fixed header. */
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 100;
+  min-width: 100%;
+  height: 4.12rem;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+}
+
+header .header-content {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  justify-content: space-between;
+
+}
+
+header .logo {
+  flex: 1;
+  color: #4a4a4a;
+  font-size: 1.5rem;
+  font-family: "Bad Script", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  text-decoration: none;
+  min-width: fit-content;
+  max-width: fit-content;
+  flex-wrap: nowrap;
+
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  width: 80px;
+}
+
+nav a {
+  font-family: 'Roboto', sans-serif;
+  vertical-align: bottom;
+  line-height: 1.6;
+  font-size: 1.3rem;
+  color: #4a4a4a;
+  text-decoration: none;
+}
+
+/* Banner Section */
+.banner {
+  display: flex;
+  flex: 1;
+  align-items: flex-start;
+  height: 43.5rem;
+  width: 100%;
+}
+
+.video {
+  display: flex;
+  margin: 0 auto;
+  background-image: url('./../images/raph-howald-ETMwh_PSjLA-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+#title {
+  display: flex;
+  width: 50%;
+  background-image: url('./../images/henry-be-IicyiaPYGGI-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  justify-content: center;
+  
+}
+.content {
+  background: rgba(160,82,45, 0.5);
+  color: #f1f1f1;
+  padding: 20px;
+  height: fit-content;
+  margin-top: 20%;
+  width: 100%;
+  padding-left: 1rem;
+}
+
+
+.banner h1 {
+  font-size: 4rem;
+  font-family: "Bad Script", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+
+.banner h2 {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 2.5rem;
+  margin-left: 4rem;
+  margin-top: 0.5rem;
+}
+
+#what-we-do-section {
+  display: flex;
+  scroll-margin-top: 4.12rem;
+  background-color: rgba(32,178,170);
+  flex-direction: column;
+}
+
+#what-we-do-section .section-content {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1%;
+  background-color: rgba(32,178,170);
+  flex-wrap: wrap;
+}
+
+#what-we-do-section .section-title {
+  color: #f3f3f3;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+.feature {
+  display: flex;
+  flex: 1 1 20%;
+  max-width: 25%;
+  min-width: 225px;
+  padding: 1rem;
+  margin: 0px 1.25rem;
+  background-color: #f3f3f3;
+  max-height: 39.6875rem;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.feature .image-container {
+  display: flex;
+  width: 90%;
+  max-height: 65%;
+  margin: 0 auto;
+  justify-content: center;
+
+}
+
+.feature .image-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.feature .content {
+  background: rgba(160,82,45, 0.5);
+  padding: 20px;
+  width: 90%;
+  max-height: 11.6875rem;
+  min-height: 11.6875rem;
+  text-align: center;
+  justify-items: center;
+  margin-top: 1rem;
+  
+}
+
+.feature h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.feature h2 {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+#team-section {
+  display: flex;
+  scroll-margin-top: 4.12rem;
+  flex-direction: column;
+  position: relative;
+}
+
+#team-section .section-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 1%;
+}
+
+#team-section .section-title {
+  color: #4a4a4a;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+#team-section .image-container {
+  width: 90%;
+  max-height: 90%;
+}
+
+#team-section .content {
+  margin-top: -6rem;
+  background: rgba(160,82,45, 0.9);
+  padding: 0;
+}
+
+#team-section .feature h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #303030;
+}
+
+#team-section .feature h2 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  color: #303030;
+}
+
+#contact-section {
+  display: flex;
+  scroll-margin-top: 4.12rem;
+  flex-direction: column;
+  background-image: url('./../images/risen-wang-20jX9b35r_M-unsplash.jpg');
+}
+
+#contact-section .section-title {
+  color: #f3f3f3a1;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+
+}
+
+#contact-section .section-content {
+  color: #f3f3f3a1;
+  font-family: "Poiret One", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+
+}
+
+.footer-content {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #f3f3f3a1;
+  color: #4a4a4a;
+}
