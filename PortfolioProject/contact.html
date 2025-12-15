@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width">
+  <title>Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- FontAwesome styles -->
+  <link href="./styles/fonts/css/fontawesome.css" rel="stylesheet" />
+  <link href="./styles/fonts/css/brands.css" rel="stylesheet" />
+  <link href="./styles/fonts/css/solid.css" rel="stylesheet" />
+</head>
+
+<body>
+  
+  <header>
+    <div class="header-content">
+      <h2>Johanné Jansen van Vuuren</h2>
+      <nav>
+        <ul>
+          <li><a href="./index.html#about-section">About</a></li>
+          <li><a href="./index.html#projects-section">Projects</a></li>
+          <li><a href="#contact-section">Contact</a></li>
+        </ul>
+      </nav>
+    </div> 
+  </header>
+
+  <main>
+    <div id="contact-section">
+      <h1>Contact</h1>
+      <p>Feel free to reach out and connect!</p>
+      <div class="icons">
+        <div class="icon-container">
+          <i class="fa-solid fa-envelope fa-2xl"></i>
+          <p><a href="mailto:johannejvv@gmail.com">johannejvv@gmail.com</a></p>
+        </div>
+        <div class="icon-container">
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+          <p><a href="https://www.linkedin.com/in/johannejvv/">johannejvv</a></p>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <small>&copy; <span id="year"></span> Johanné Jansen van Vuuren</small>
+  </footer>
+  
+  <script>
+    // Simple script to set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
