@@ -1,0 +1,19 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; /* 1rem = 16px; */
+}
+
+body {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: #292929;
+}
