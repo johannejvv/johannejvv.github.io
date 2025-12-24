@@ -6,14 +6,77 @@ html {
 body {
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  margin: 0;
+  padding: 0 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
 }
 
 nav ul {
   list-style: none;
+  display: flex;
+ 
+}
+
+nav ul li {
+  padding-left: 1rem;
 }
 
 nav ul a {
   text-decoration: none;
   color: #292929;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#pronounciation {
+  font-size: 0.9rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+#about-section {
+  display: flex;
+  padding-top: 2rem;
+}
+
+.content {
+  padding-right: 2rem;
+}
+
+#about-section .image-container {
+  padding-top: 4rem;
+  flex-shrink: 0;
+}
+
+#projects-section {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#skills-section {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.icons {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.icons i {
+  padding-right: 1rem;
 }
