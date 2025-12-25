@@ -38,16 +38,19 @@ nav ul a {
 
 #pronounciation {
   font-size: 0.9rem;
+  color: #292929;
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
+  color: rgb(60,179,113);
 }
 
 
 #about-section {
   display: flex;
   padding-top: 2rem;
+
 }
 
 .content {
@@ -57,12 +60,6 @@ h1 {
 #about-section .image-container {
   padding-top: 4rem;
   flex-shrink: 0;
-}
-
-#projects-section {
-  display: flex;
-  flex-direction: column;
-
 }
 
 #skills-section {
@@ -79,4 +76,35 @@ h1 {
 
 .icons i {
   padding-right: 1rem;
+}
+
+#projects-section {
+  display: flex;
+  flex-direction: column;
+}
+
+#projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.project {
+  margin-right: 2rem;
+  max-width: 45%;
+}
+
+.project .image-container img {
+  display: block;    /* removes inline whitespace */
+  width: 100%;       /* fill container width */
+  height: auto;      /* keep original aspect ratio */
+  max-width: 100%;
+}
+
+footer {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: rgb(60,179,113); 
 }

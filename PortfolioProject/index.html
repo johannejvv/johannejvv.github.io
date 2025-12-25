@@ -26,17 +26,15 @@
     </div> 
   </header>
 
-  <main>
-    <h1>Hi, I'm Johanné <span id="pronounciation">(you-ah-nay)</span></h1>
-    
+  <main>   
     <div id="about-section">
       <div class="content">
-        <h2>About</h2>        
+        <h1>Hi, I'm Johanné <span id="pronounciation">(you-ah-nay)</span></h1>      
         <p>I am drawn towards compassionate problem solving and use curiosity as my guiding force in life.
           My career so far has been a collage of different experiences! From embedded systems engineering in mining and aerospace 
           to where I'm currently working in special needs education as a healthcare assistant. <br><br>
           I'm making my way through Codecademy's Full Stack Engineer certification to become a versatile problem-solver
-          in today's digital world. Here you can find some more details about what I've been up to :)
+          in the digital world. Here you can find some more details about what I've been up to :)
         </p>
       </div>
       <div class="image-container">
@@ -60,29 +58,35 @@
 
     <div id="projects-section">
       <h2>Projects</h2>
-      <ul>
-        <li><h3>Club webpage</h3></li>
-        <p>Super basic webpage layout for a local sustainable food club to practice responsive web design practices, specifically rem units and media queries.</p>
-        <div class="image-container">
-          <img src="./images/food-club.png" width="300" alt="Screenshot of Stonehouse Fooc Club webpage" />
+      <div id="projects-container">
+        <div class="project">
+          <h3>Club webpage</h3>
+          <p>Super basic webpage layout for a local sustainable food club to practice responsive web design practices, specifically rem units and media queries.</p>
+          <div class="image-container">
+            <img src="./images/food-club.png" width="300" Screenshot of Stonehouse Fooc Club webpage" />
+          </div>
+          <p>View the page here: <a href="https://johannejvv.github.io/ClubSite/index.html" target="_blank">Stonehouse Food Club (opens in new tab)</a></p>
         </div>
-        <p>View the page here: <a href="https://johannejvv.github.io/ClubSite/index.html" target="_blank">Stonehouse Food Club (opens in new tab)</a></p>
-        <li>Health & Fitness webpage</li>
-        <p>I used HTML and CSS, specifically Flexbox, to design and build a landing page for my dream Health & Fitness company.</p>
-        <div class="image-container">
-          <img src="./images/Train-for-life.png" width="300" alt="Screenshot of Train For Life webpage" />
+        <div class="project">
+          <h3>Health & Fitness webpage</h3>
+          <p>I used HTML and CSS, specifically Flexbox, to design and build a landing page for my dream Health & Fitness company.</p>
+          <div class="image-container">
+            <img src="./images/Train-for-life.png" width="300" alt="Screenshot of Train For Life webpage" />
+          </div>
+          <p>View the site here: <a href="https://johannejvv.github.io/CompanyPage/index.html" target="_blank">Train for Life (opens in new tab)</a></p>
         </div>
-        <p>View the site here: <a href="https://johannejvv.github.io/CompanyPage/index.html" target="_blank">Train for Life (opens in new tab)</a></p>
-        <li>Computer Vision in Rock Climbing</li>
-        <p>While not related to Codecademy, I completed this during my Mechatronics Degree. It's a project I'm very proud of and had loads of fun doing!</p>
-        <p>Using OpenPose, a human pose detection library, I looked at the behaviour of climbers' joints and center of gravity 
-          during different moves. I used Python for the post-processing and data analysis.</p>
-        <div class="'video-container">
-          <video controls width="250">
-            <source src="./videos/CVproject.mp4" type="video/mp4"/>
-          </video>
-        </div>
-      </ul>
+        <div class="project">
+          <h3>Computer Vision in Rock Climbing</h3>
+          <p>While not related to Codecademy, I completed this during my Mechatronics Degree. It's a project I'm very proud of and had loads of fun doing!</p>
+          <p>Using OpenPose, a human pose detection library, I looked at the behaviour of climbers' joints and center of gravity 
+            during different moves. I used Python for the post-processing and data analysis.</p>
+          <div class="video-container">
+            <video controls width="300">
+              <source src="./videos/CVproject.mp4" type="video/mp4"/>
+            </video>
+          </div>
+        </div>  
+      </div>
     </div>
   </main>
 
