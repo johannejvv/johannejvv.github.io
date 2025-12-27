@@ -90,14 +90,17 @@ main {
 
 #projects-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
   flex: 1;
+  margin-bottom: 1.5rem;
 }
 
 .project {
   margin-right: 2rem;
-  max-width: 45%;
+  margin-bottom: 1rem;
+  max-width: 50%;
 }
 
 .project .image-container img {
@@ -105,6 +108,10 @@ main {
   width: 100%;       /* fill container width */
   height: auto;      /* keep original aspect ratio */
   max-width: 100%;
+}
+
+#info-1, #info-2, #info-3 {
+  display: none;
 }
 
 footer {

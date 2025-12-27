@@ -60,30 +60,36 @@
       <h2>Projects</h2>
       <div id="projects-container">
         <div class="project">
-          <h3>Club webpage</h3>
-          <p>Super basic webpage layout for a local sustainable food club to practice responsive web design practices, specifically rem units and media queries.</p>
-          <div class="image-container">
-            <img src="./images/food-club.png" width="300" Screenshot of Stonehouse Fooc Club webpage" />
+          <button id="more-info-1"><h3>Club webpage</h3></button>
+          <div id="info-1">
+            <p>Super basic webpage layout for a local sustainable food club to practice responsive web design practices, specifically rem units and media queries.</p>
+            <div class="image-container">
+              <img src="./images/food-club.png" width="300" Screenshot of Stonehouse Fooc Club webpage" />
+            </div>
+            <p>View the page here: <a href="https://johannejvv.github.io/ClubSite/index.html" target="_blank">Stonehouse Food Club (opens in new tab)</a></p>
           </div>
-          <p>View the page here: <a href="https://johannejvv.github.io/ClubSite/index.html" target="_blank">Stonehouse Food Club (opens in new tab)</a></p>
         </div>
         <div class="project">
-          <h3>Health & Fitness webpage</h3>
-          <p>I used HTML and CSS, specifically Flexbox, to design and build a landing page for my dream Health & Fitness company.</p>
-          <div class="image-container">
-            <img src="./images/Train-for-life.png" width="300" alt="Screenshot of Train For Life webpage" />
+          <button id="more-info-2"><h3>Health & Fitness webpage</h3></button>
+          <div id="info-2">
+            <p>I used HTML and CSS, specifically Flexbox, to design and build a landing page for my dream Health & Fitness company.</p>
+            <div class="image-container">
+              <img src="./images/Train-for-life.png" width="300" alt="Screenshot of Train For Life webpage" />
+            </div>
+            <p>View the site here: <a href="https://johannejvv.github.io/CompanyPage/index.html" target="_blank">Train for Life (opens in new tab)</a></p>
           </div>
-          <p>View the site here: <a href="https://johannejvv.github.io/CompanyPage/index.html" target="_blank">Train for Life (opens in new tab)</a></p>
         </div>
         <div class="project">
-          <h3>Computer Vision in Rock Climbing</h3>
-          <p>While not related to Codecademy, I completed this during my Mechatronics Degree. It's a project I'm very proud of and had loads of fun doing!</p>
-          <p>Using OpenPose, a human pose detection library, I looked at the behaviour of climbers' joints and center of gravity 
-            during different moves. I used Python for the post-processing and data analysis.</p>
-          <div class="video-container">
-            <video controls width="300">
-              <source src="./videos/CVproject.mp4" type="video/mp4"/>
-            </video>
+          <button id="more-info-3"><h3>Computer Vision in Rock Climbing</h3></button>
+          <div id="info-3">
+            <p>While not related to Codecademy, I completed this during my Mechatronics Degree. It's a project I'm very proud of and had loads of fun doing!</p>
+            <p>Using OpenPose, a human pose detection library, I looked at the behaviour of climbers' joints and center of gravity 
+              during different moves. I used Python for the post-processing and data analysis.</p>
+            <div class="video-container">
+              <video controls width="300">
+                <source src="./videos/CVproject.mp4" type="video/mp4"/>
+              </video>
+            </div>
           </div>
         </div>  
       </div>
@@ -98,5 +104,6 @@
     // Simple script to set current year
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
+  <script  src="main.js"></script>
 </body>
 </html>
