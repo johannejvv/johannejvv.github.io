@@ -140,3 +140,36 @@ footer {
   color: #292929;
   font-weight: bold;
 }
+
+@media only screen and (max-width:600px) {
+  .project {
+    max-width: 100%;
+    margin-right: 0;
+  }
+
+  #about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Allow the .content's children to participate in the about-section flow so we can reorder them */
+  #about-section .content {
+    display: contents;
+  }
+
+  /* Desired order: heading, image, paragraph */
+  #about-section h1 {
+    order: 1;
+  }
+
+  #about-section .image-container {
+    order: 2;
+    margin: 1rem 0;
+    padding-top: 0;
+  }
+
+  #about-section p {
+    order: 3;
+  }
+
+}
